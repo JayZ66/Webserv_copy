@@ -1,0 +1,540 @@
+INFO: Starting Program logs at : 20241118_170230
+INFO: Starting main
+INFO: 2 servers successfully configured
+INFO: Server configuration is valid.
+INFO: Socket 9 successfully bound to port 8080
+INFO: Socket 9 is now listening on port 8080
+INFO: Server launched, listening on port: 8080
+INFO: Server configuration is valid.
+INFO: Socket 10 successfully bound to port 8081
+INFO: Socket 10 is now listening on port 8081
+INFO: Server launched, listening on port: 8081
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945752347
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Request File Path is a directory, searching for an index page...
+INFO: Found index page: www//index.html
+INFO: Serving static file found at: www//index.html
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 3387
+Content-Type: text/html
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945752450
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /css/style.css
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/css/style.css
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 5736
+Content-Type: text/css
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 12
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945752462
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /script.js
+INFO: Parsing OK, handling request for client fd: 12
+INFO: Serving static file found at: www/script.js
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 649
+Content-Type: application/javascript
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945752471
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/fleur.jpg
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/images/fleur.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 121835
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 12
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945752481
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/fume.jpg
+INFO: Parsing OK, handling request for client fd: 12
+INFO: Serving static file found at: www/images/fume.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 47316
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945752489
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/recolte.avif
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/images/recolte.avif
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 82839
+Content-Type: text/html
+
+INFO: Begin to handle request for client FD: 12
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945752504
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/conso.jpg
+INFO: Parsing OK, handling request for client fd: 12
+INFO: Serving static file found at: www/images/conso.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 46294
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945752530
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /favicon.ico
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/favicon.ico
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 4150
+Content-Type: text/html
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945764049
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Request File Path is a directory, searching for an index page...
+INFO: Found index page: www//index.html
+INFO: Serving static file found at: www//index.html
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 3387
+Content-Type: text/html
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945764078
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /css/style.css
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/css/style.css
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 5736
+Content-Type: text/css
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945764080
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /script.js
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/script.js
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 649
+Content-Type: application/javascript
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945764085
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/fleur.jpg
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/images/fleur.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 121835
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 12
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945764094
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/recolte.avif
+INFO: Parsing OK, handling request for client fd: 12
+INFO: Serving static file found at: www/images/recolte.avif
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 82839
+Content-Type: text/html
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945764099
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/conso.jpg
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/images/conso.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 46294
+Content-Type: image/jpeg
+
+INFO: Begin to handle request for client FD: 12
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945764105
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/fume.jpg
+INFO: Parsing OK, handling request for client fd: 12
+INFO: Serving static file found at: www/images/fume.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 47316
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945765624
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Request File Path is a directory, searching for an index page...
+INFO: Found index page: www//index.html
+INFO: Serving static file found at: www//index.html
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 3387
+Content-Type: text/html
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945765672
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /css/style.css
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/css/style.css
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 5736
+Content-Type: text/css
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945765679
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /script.js
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/script.js
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 649
+Content-Type: application/javascript
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Accepting new Connection on socket FD: 9
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 12
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945765735
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/conso.jpg
+INFO: Parsing OK, handling request for client fd: 12
+INFO: Serving static file found at: www/images/conso.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 46294
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945765736
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/recolte.avif
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/images/recolte.avif
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 82839
+Content-Type: text/html
+
+INFO: Begin to handle request for client FD: 13
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945765738
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/fleur.jpg
+INFO: Parsing OK, handling request for client fd: 13
+INFO: Serving static file found at: www/images/fleur.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 121835
+Content-Type: image/jpeg
+
+INFO: Begin to handle request for client FD: 12
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945765741
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/fume.jpg
+INFO: Parsing OK, handling request for client fd: 12
+INFO: Serving static file found at: www/images/fume.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 47316
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945766697
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Request File Path is a directory, searching for an index page...
+INFO: Found index page: www//index.html
+INFO: Serving static file found at: www//index.html
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 3387
+Content-Type: text/html
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945766775
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /css/style.css
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/css/style.css
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 5736
+Content-Type: text/css
+
+INFO: Begin to handle request for client FD: 12
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945766779
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /script.js
+INFO: Parsing OK, handling request for client fd: 12
+INFO: Serving static file found at: www/script.js
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 649
+Content-Type: application/javascript
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945766783
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/fleur.jpg
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/images/fleur.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 121835
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945766789
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/recolte.avif
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/images/recolte.avif
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 82839
+Content-Type: text/html
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945766803
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/conso.jpg
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/images/conso.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 46294
+Content-Type: image/jpeg
+
+INFO: Begin to handle request for client FD: 12
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945766809
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/fume.jpg
+INFO: Parsing OK, handling request for client fd: 12
+INFO: Serving static file found at: www/images/fume.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 47316
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945999226
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Request File Path is a directory, searching for an index page...
+INFO: Found index page: www//index.html
+INFO: Serving static file found at: www//index.html
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 3387
+Content-Type: text/html
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945999286
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /css/style.css
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/css/style.css
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 5736
+Content-Type: text/css
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945999292
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /script.js
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/script.js
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 649
+Content-Type: application/javascript
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 12
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945999294
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/fleur.jpg
+INFO: Parsing OK, handling request for client fd: 12
+INFO: Serving static file found at: www/images/fleur.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 121835
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945999296
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/conso.jpg
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/images/conso.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 46294
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 12
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945999298
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/recolte.avif
+INFO: Parsing OK, handling request for client fd: 12
+INFO: Serving static file found at: www/images/recolte.avif
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 82839
+Content-Type: text/html
+
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945999313
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /images/fume.jpg
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/images/fume.jpg
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 47316
+Content-Type: image/jpeg
+
+INFO: Accepting new Connection on socket FD: 9
+INFO: Begin to handle request for client FD: 11
+INFO: Full request read.
+INFO: Returning user: eceadaa0-7da6-4823-8b50-084b099df0b1
+INFO: Data set in session: Last_access_time = 1731945999340
+INFO: Data set in session: Method requested = GET
+INFO: Data set in session: Page requested = /favicon.ico
+INFO: Parsing OK, handling request for client fd: 11
+INFO: Serving static file found at: www/favicon.ico
+WARNING: Response sent to client; No verif on write : 
+HTTP/1.1 200 OK
+Content-Length: 4150
+Content-Type: text/html
+
+INFO: Signal received, stopping the server...
