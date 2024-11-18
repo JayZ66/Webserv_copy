@@ -637,7 +637,7 @@ void Server::handleClient(int client_fd, HTTPRequest* request) {
     Logger::instance().log(INFO, "Parsing OK, handling request for client fd: " + to_string(client_fd));
     handleHttpRequest(client_fd, *request, response);
 
-    // Persiste la session avant de quitter
+    // Garde la session et update les infos avant de quitter
     session.persistSession();
 }
 

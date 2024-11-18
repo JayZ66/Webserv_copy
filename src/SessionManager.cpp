@@ -95,11 +95,18 @@ bool SessionManager::getFirstCon() const {
 
 
 std::string cleanValue(const std::string& value) {
-    if (value.empty()) return value;
-    size_t start = 0, end = value.size();
-    while (start < end && isspace(value[start])) ++start;
-    while (end > start && isspace(value[end - 1])) --end;
-    return value.substr(start, end - start);
+    
+    if (value.empty())
+        return value;
+
+    size_t start = 0;
+    size_t end = value.size();
+
+    while (start < end && isspace(value[start]))
+        ++start;
+    while (end > start && isspace(value[end - 1]))
+        --end;
+    return (value.substr(start, end - start));
 }
 
 void SessionManager::persistSession() {
@@ -152,8 +159,8 @@ void SessionManager::loadSession() {
 
     std::string line, current_section;
     while (std::getline(file, line)) {
-        if (line.empty() || line[0] == '#') continue; // Ignore lignes vides ou commentaires
-
+        if (line.empty() || line[0] == '#') // Ignore lignes vides ou commentaires
+            continue;
         if (line[0] == '[' && line[line.size() - 1] == ']') {
             current_section = line.substr(1, line.size() - 2);
             continue;
