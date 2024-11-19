@@ -69,7 +69,8 @@ std::string SessionManager::generateUUID() {
 void SessionManager::setData(const std::string& key, const std::string& value, bool append) {
     if (append && _session_data.find(key) != _session_data.end()) {
         _session_data[key] += ", " + value;  // Ajout de la nouvelle valeur
-    } else {
+    }
+    else {
         _session_data[key] = value;
     }
     Logger::instance().log(INFO, "Data set in session: " + key + " = " + _session_data[key]);
@@ -124,13 +125,22 @@ void SessionManager::persistSession() {
         return;
     }
 
+    // Ajoute une ligne vide avant [General] si le fichier n'est pas vide
+    file.seekp(0, std::ios::end); // Place le curseur à la fin
+    if (file.tellp() > 0) {
+        file << "\n"; // Ajoute une ligne vide
+    }
+
     // Écrit les nouvelles données sous la section [General]
+    file << "[General]\n";
     if (_session_data.find("last_access_time") != _session_data.end()) {
-        file << "[General]\n";
         file << "last_access_time=" << cleanValue(curr_time()) << "\n";
     }
     if (_session_data.find("status") != _session_data.end()) {
         file << "status=" << cleanValue(_session_data["status"]) << "\n";
+    }
+    if (_session_data.find("user_agent") != _session_data.end()) {
+        file << "user_agent=" << cleanValue(_session_data["user_agent"]) << "\n";
     }
 
     file << "\n[Requests]\n";
@@ -146,12 +156,11 @@ void SessionManager::persistSession() {
     file.close();
 }
 
-
 void SessionManager::loadSession() {
     std::string filepath = "sessions/" + _session_id + ".txt";
     std::ifstream file(filepath.c_str());
     if (!file.is_open()) {
-        _first_con = true;
+        _first_con = true; // Première connexion si aucun fichier existant
         return;
     }
 
@@ -170,20 +179,17 @@ void SessionManager::loadSession() {
         if (delimiter_pos != std::string::npos) {
             std::string key = line.substr(0, delimiter_pos);
             std::string value = line.substr(delimiter_pos + 1);
-            if (current_section == "Requests") {
-                if (!_session_data[key].empty()) {
-                    _session_data[key] += ",";
-                }
-                _session_data[key] += value;
-            } else {
-                _session_data[key] = value;
-            }
+            _session_data[key] = value;
         }
+    }
+
+    // Vérifie si le statut est défini
+    if (_session_data.find("status") == _session_data.end()) {
+        _session_data["status"] = "new user";
     }
 
     file.close();
 }
-
 
 
 std::string SessionManager::curr_time() {

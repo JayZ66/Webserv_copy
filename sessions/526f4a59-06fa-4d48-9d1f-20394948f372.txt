@@ -1,0 +1,116 @@
+[General]
+last_access_time=2024-11-19 13:42:27
+status=new user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:42:30
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/css/style.css
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:42:30
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/images/conso.jpg
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:42:30
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/images/fume.jpg
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:42:30
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/images/recolte.avif
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:42:30
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/images/fleur.jpg
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:42:30
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/script.js
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:42:31
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/favicon.ico
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:43:46
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/pages/apropos.html
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:43:46
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/css/style_apropos.css
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:43:46
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/images/anporced.jpg
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:43:46
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/images/tgibert.jpg
+Methods=GET
+
+[General]
+last_access_time=2024-11-19 13:43:47
+status=existing user
+user_agent=Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+
+[Requests]
+Pages=/images/jeza.jpg
+Methods=GET
